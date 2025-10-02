@@ -1,8 +1,4 @@
 .DS_Store
-*.mp3
-*.wav
-*.mp4
-*.srt
 *.zip
 # Nunca subas claves
 .env
