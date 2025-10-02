@@ -1,0 +1,5 @@
+{
+  "lucia":  { "voice": "TBD", "stability": 0.60, "style": 0.40, "speed": 1.03 },
+  "inigo":  { "voice": "TBD", "stability": 0.55, "style": 0.35, "speed": 1.00 },
+  "carmen": { "voice": "TBD", "stability": 0.65, "style": 0.30, "speed": 1.02 }
+}
