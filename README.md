@@ -26,7 +26,7 @@ Vídeos de **animación simple** (logo/imagen parlante) y **landing** montada en
 ## 🗺️ Planificación (hitos)
 - H1: guiones + copy (`/scripts`, `/brand/copy_web.md`)  
 - H2: audios ElevenLabs + `audio/metadata.json`  
-- H3: `video/01_lucia.mp4`, `02_inigo.mp4`, `03_carmen.mp4` (1080p)  
+- H3: `video/01_lucia.mp4`, `02_inigo.mp4`, `03_adolfo.mp4` (1080p)  
 - H4: Lovable integrado (3 modales) + `video/master.mp4` + `master.srt` + slides  
 - H5: **Dry run** 15’+5’ y cierre
 
@@ -45,9 +45,9 @@ Vídeos de **animación simple** (logo/imagen parlante) y **landing** montada en
 /audio/ # .wav/.mp3 + metadata.json
 /brand/ # logo, paleta.md, lower-third, thumb_*.png, copy_web.md
 /prompts/ # promptbook.md (capturas y prompts)
-/scripts/ # guion_lucia.md, guion_inigo.md, guion_carmen.md
+/scripts/ # guion_lucia.md, guion_inigo.md, guion_adolfo.md
 /slides/ # presentacion.pptx, presentacion.pdf
-/video/ # 01_lucia.mp4, 02_inigo.mp4, 03_carmen.mp4, master.mp4, master.srt
+/video/ # 01_lucia.mp4, 02_inigo.mp4, 03_adolfo.mp4, master.mp4, master.srt
 MEMORIA.md # memoria del proyecto (resumen + lecciones)
 README.md
 ´´´
