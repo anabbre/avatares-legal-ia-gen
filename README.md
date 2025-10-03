@@ -1,13 +1,77 @@
 # Avatares Legales – Demo IA Gen
-Vídeo 1–2 min con 3 avatares (Laboral, Compliance, Onboarding) + landing en Figma.
-Guiones con GPT, voz con ElevenLabs, animación simple sin herramientas de pago extra.
 
-## Estructura
-- /scripts … guiones (.md)
-- /brand … logo/paleta y copy_web.md
-- /audio … WAV/MP3 + metadata.json
-- /video … clips por avatar y master + SRT
-- /slides … PPTX y PDF
-- /prompts … promptbook.md
+Demo de comunicación legal con **3 “avatares”** (Laboral, Compliance, Onboarding).  
+Contenidos generados con **GPT** (guiones/copy) y **ElevenLabs** (voz).  
+Vídeos de **animación simple** (logo/imagen parlante) y **landing** montada en **Lovable**.  
+> *Demostración educativa. No constituye asesoramiento legal.*
 
-> Demostración educativa. No constituye asesoramiento legal.
+---
+
+## 🔗 Demo
+- **Landing (Lovable)**: _(añadir URL cuando Amalia la publique)_  
+- **Vídeo master (1–2 min)**: `video/master.mp4` (con `video/master.srt`)
+
+---
+
+## 👥 Roles y pipeline (fases)
+- **E1 – Guiones & copy** → **Ana** (backup Amalia)  
+- **E2 – Audio TTS** → **Carlos** (backup Ana)  
+- **E3 – Vídeo/animación (3 MP4)** → **Juan** (backup Carlos)  
+- **E4 – Web Lovable + Master + SRT + Slides** → **Amalia** (backup Juan)
+
+**Handoff**: cada etapa entrega artefactos en el repo y menciona al siguiente owner en su issue.
+
+---
+
+## 🗺️ Planificación (hitos)
+- H1: guiones + copy (`/scripts`, `/brand/copy_web.md`)  
+- H2: audios ElevenLabs + `audio/metadata.json`  
+- H3: `video/01_lucia.mp4`, `02_inigo.mp4`, `03_carmen.mp4` (1080p)  
+- H4: Lovable integrado (3 modales) + `video/master.mp4` + `master.srt` + slides  
+- H5: **Dry run** 15’+5’ y cierre
+
+---
+
+## ✅ Definition of Done
+**E1**: 3 guiones ≤130 palabras + 2 Q&A; copy web coherente.  
+**E2**: 3 WAV/MP3 nivelados (44.1 kHz) + `metadata.json` con `voice, stability, style, speed`.  
+**E3**: 3 MP4 1080p, rótulo *lower-third*, ≤30–50 MB c/u.  
+**E4**: Lovable con 3 botones “Reproducir demo” → modal correcto; footer con **disclaimer**; `master.mp4` (100–110 s) + `master.srt` sincronizado; slides PPTX+PDF.
+
+---
+
+## 📁 Estructura
+´´´
+/audio/ # .wav/.mp3 + metadata.json
+/brand/ # logo, paleta.md, lower-third, thumb_*.png, copy_web.md
+/prompts/ # promptbook.md (capturas y prompts)
+/scripts/ # guion_lucia.md, guion_inigo.md, guion_carmen.md
+/slides/ # presentacion.pptx, presentacion.pdf
+/video/ # 01_lucia.mp4, 02_inigo.mp4, 03_carmen.mp4, master.mp4, master.srt
+MEMORIA.md # memoria del proyecto (resumen + lecciones)
+README.md
+´´´
+
+---
+
+## 🧰 Herramientas
+- **Texto/guiones**: ChatGPT
+- **Voz**: ElevenLabs  
+- **Vídeo**: CapCut / Clipchamp / (Slides→MP4)  
+- **Web**: Lovable (modales con MP4)  
+- **Slides**: Gamma / SlidesAI / Canva
+
+---
+
+## 📌 Entregables
+- Landing en Lovable con **3 demos** embebidas  
+- `video/master.mp4` + `video/master.srt`  
+- Slides (PPTX + PDF)  
+- Repo con guiones, audios, vídeos, **promptbook** y **memoria**
+
+---
+
+## 📝 Notas
+- Nombres sin espacios/acentos: `01_lucia.mp4`, `lucia.wav`, etc.  
+- Mantener volumen homogéneo y contraste de textos.  
+- Sin datos reales ni marcas: todo es **ficticio**.
