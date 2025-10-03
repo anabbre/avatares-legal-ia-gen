@@ -1,8 +1,1 @@
-Hola, soy Lucía, tu Asesora Laboral. Hoy te explico cómo pedir permiso por consulta médica.
-Si la cita coincide con tu horario, avisa con antelación y solicita la ausencia en la app de RR. HH., adjuntando el justificante. Si el centro no entrega justificante en el momento, súbelo cuando lo recibas. Recuerda que el tiempo debe ser el estrictamente necesario para el desplazamiento y la consulta. Si necesitas modificar tu turno, habla con tu mánager para ajustar la franja sin afectar al servicio.
-
-Preguntas rápidas:
-¿Puedo teletrabajar el día de mudanza? No: usa un día de asuntos propios si tienes saldo o pacta flexibilidad.
-¿Puedo acompañar a mi hijo menor al médico? Sí: está contemplado como permiso retribuido con justificante.
-
-Consulta la guía completa en el portal interno.
+¡Hola! Soy Lucía, tu Asesora Laboral. Hoy vamos a ver cómo solicitar un permiso para una consulta médica de forma sencilla.Primero, si tu cita médica coincide con tu jornada laboral, es fundamental que avises a tu equipo con la mayor antelación posible.Luego, entra en la aplicación de Recursos Humanos y registra tu ausencia. No olvides adjuntar el justificante de la cita.Si no te lo dan en el momento, no te preocupes, puedes subirlo más tarde.Un punto importante: el permiso cubre el tiempo estrictamente necesario para ir a la consulta, la visita en sí y volver.¿Y si necesitas un cambio de turno? Habla directamente con tu mánager para encontrar la mejor solución sin afectar al servicio.
