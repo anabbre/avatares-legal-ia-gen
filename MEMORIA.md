@@ -1,6 +1,6 @@
 # Memoria del Proyecto — Avatares Digitales (Sector Legal)
 
-> **Demo IA Gen** con 3 “avatares” (Laboral, Compliance, Onboarding) para comunicación interna clara y consistente.  
+> **Demo IA Gen** con 3 “avatares” (Operativo, Mentoría, Especialista/Litigación) para comunicación interna clara y consistente.
 > Guiones con GPT, voz con ElevenLabs, vídeos de animación simple, landing en Lovable.  
 > **Disclaimer:** Demostración educativa. No constituye asesoramiento legal.
 
@@ -10,6 +10,13 @@
 - **Escenario elegido:** Servicio de avatares digitales para un bufete (Escenario 3).
 - **Título del proyecto:** *Galería de Avatares Legales*.
 - **Objetivo de la demo:** Mostrar 3 perfiles con tono/estilo diferenciado capaces de explicar un tema y responder micro-FAQs, con **máximo uso de IA generativa** en el flujo (texto → audio → vídeo → web).
+
+- ### Perfiles de la demo
+| Avatar | Enfoque | Resumen |
+|---|---|---|
+| Lucía | **Operativo** | Mensajes claros y pasos concretos para FAQs del día a día. |
+| Iñigo | **Mentoría** | Consejos y pautas para perfiles junior; orientación ética/profesional. |
+| Adolfo | **Especialista / Litigación** | Storytelling de casos y sensibilización sobre procedimientos del área. |
 
 ---
 
@@ -29,15 +36,13 @@
 - **H3 – Vídeo**: `video/01_lucia.mp4`, `02_inigo.mp4`, `03_adolfo.mp4`.  
 - **H4 – Integración**: landing en **Lovable** (3 modales) + slides.  
 - **H5 – Ensayo**: *dry run* 15’ + 5’, checklist final.
-
-> **Fechas**:  
-> H1: TODO | H2: TODO | H3: TODO | H4: TODO | H5: TODO
-
 ---
 
 ## 4. Proceso y estadios intermedios
 **E1 – Guiones & Copy (GPT)**  
-- Prompt base: “Guion corporativo 120–130 palabras + 2 Q&A, tono [cercano/formal/didáctico], sin asesoría legal.”  
+- Prompt base: “Guion corporativo 120–130 palabras + 2 Q&A, tono [cercano/formal/didáctico], sin asesoría legal.”
+- Estilos definidos: **Operativo (Lucía)**, **Mentoría (Iñigo)** y **Especialista/Litigación (Adolfo)**.
+- Prompt base: “Guion corporativo 120–130 palabras + 2 Q&A, tono [cercano/formal/didáctico], sin asesoría legal.”
 - Artefactos: `scripts/guion_lucia.md`, `guion_inigo.md`, `guion_adolfo.md`, `brand/copy_web.md`.  
 - Evidencias: `/prompts/promptbook.md` y capturas.
 
@@ -57,7 +62,8 @@
 ---
 
 ## 5. Producto final (enlaces y capturas)
-- **Landing (Lovable):** https://preview--ai-legal-showcase.lovable.app/ *(puede requerir permisos)*  
+- **Landing (Lovable):** https://preview--ai-legal-showcase.lovable.app/ *(puede requerir permisos)*
+- **Vídeos:** `video/01_lucia.mp4` (**Operativo**), `video/02_inigo.mp4` (**Mentoría**), `video/03_adolfo.mp4` (**Especialista/Litigación**).
 - **Slides:** `/slides/Digital Counsel_ Avatares Legales con IA.pdf`  
 - **Capturas:** pantallas de Lovable en `/web`.
 
