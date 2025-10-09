@@ -1,5 +1,5 @@
 {
-  "lucia":  { "voice": "TBD", "stability": 0.60, "style": 0.40, "speed": 1.03 },
-  "inigo":  { "voice": "TBD", "stability": 0.55, "style": 0.35, "speed": 1.00 },
-  "carmen": { "voice": "TBD", "stability": 0.65, "style": 0.30, "speed": 1.02 }
+  "lucia":  { "voice": "aAIPUicYNNoDf4XL2xLk", "stability": 0.46, "style": 0.47, "speed": 1.03 },
+  "inigo":  { "voice": "mlvKrtn7QX3wWuvzlsgA", "stability": 0.50, "style": 0.35, "speed": 0.96 },
+  "carmen": { "voice": "ixJ3jOtRyLTOJfn4zDOf", "stability": 0.50, "style": 0.30, "speed": 1.00 }
 }
