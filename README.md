@@ -1,6 +1,7 @@
 # Avatares Legales – Demo IA Gen
 
-Demo de comunicación legal con **3 “avatares”** (Laboral, Compliance, Onboarding).  
+Demo de comunicación legal con **3 avatares**:
+**Operativo (Lucía)**, **Mentoría (Iñigo)** y **Especialista/Litigación (Adolfo)**.
 Contenidos generados con **GPT** (guiones/copy) y **ElevenLabs** (voz).  
 Vídeos de **animación simple** (logo/imagen parlante) y **landing** montada en **Lovable**.  
 > *Demostración educativa. No constituye asesoramiento legal.*
@@ -25,7 +26,7 @@ Vídeos de **animación simple** (logo/imagen parlante) y **landing** montada en
 ## 🗺️ Planificación (hitos)
 - H1: guiones + copy (`/scripts`, `/brand/copy_web.md`)  
 - H2: audios ElevenLabs + `audio/metadata.json`  
-- H3: `video/01_lucia.mp4`, `02_inigo.mp4`, `03_adolfo.mp4` (1080p)  
+- H3: `video/01_lucia.mp4` (**Operativo**), `02_inigo.mp4` (**Mentoría**), `03_adolfo.mp4` (**Especialista/Litigación**)
 - H4: Lovable integrado (3 modales) + slides  
 - H5: **Dry run** 15’+5’ y cierre
 
