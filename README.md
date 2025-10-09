@@ -41,17 +41,39 @@ Vídeos de **animación simple** (logo/imagen parlante) y **landing** montada en
 ---
 
 ## 📁 Estructura
-´´´
-/audio/ # .wav/.mp3 + metadata.json
-/brand/ # logo, paleta.md, lower-third, thumb_*.png, copy_web.md
-/prompts/ # promptbook.md + prompt_slides.md + prompt_web.md (prompts de las diferentes fases)
-/scripts/ # guion_lucia.md, guion_inigo.md, guion_adolfo.md
-/slides/ # Digital Counsel_ Avatares Legales con IA.pdf
-/video/ # 01_lucia.mp4, 02_inigo.mp4, 03_adolfo.mp4, master.mp4, master.srt
-/web/ # capturas de pantalla de Lovable
-MEMORIA.md # memoria del proyecto (resumen + lecciones)
-README.md
-´´´
+```
+.
+├─ audio/
+│  └─ metadata.json
+├─ brand/
+│  ├─ copy_web.md
+│  └─ paleta.md
+├─ prompts/
+│  ├─ promptbook.md
+│  ├─ prompt_slides.md
+│  └─ prompt_web.md
+├─ scripts/
+│  ├─ guion_lucia.md
+│  ├─ guion_inigo.md
+│  └─ guion_adolfo.md
+├─ slides/
+│  └─ Digital Counsel_ Avatares Legales con IA.pdf
+├─ video/
+│  ├─ lucia.mp4
+│  ├─ inigo.mp4
+│  ├─ adolfo.mp4
+│  ├─ Portada_comunicacion.png
+│  ├─ Portada_ejecutivo.png
+│  └─ Portada_especialista.png
+├─ web/
+│  ├─ Page1.png
+│  ├─ Page2.png
+│  ├─ Page3.png
+│  └─ Page4.png
+├─ MEMORIA.md
+├─ README.md
+└─ .gitignore
+```
 
 ---
 
