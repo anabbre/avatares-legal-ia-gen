@@ -8,19 +8,20 @@ cta_contact: Solicitar piloto
 
 # Tarjetas
 [card_lucia]
-title: Avatar Laboral
-subtitle: Permisos, teletrabajo y dudas frecuentes de RR. HH.
+title: Avatar Operativo
+subtitle: Comunicación Operativa
 desc: Respuestas operativas y comprensibles para el día a día, alineadas con la política interna.
 
 [card_inigo]
-title: Avatar Compliance
-subtitle: Integridad y cumplimiento normativo
-desc: Mensajes claros sobre regalos, conflictos de interés y registro de obsequios.
+title: Avatar Mentoría
+subtitle: Mentoría jurídica
+desc: Consejos y pautas profesionales para perfiles junior; orientación ética y buenas prácticas con tono formal y cercano.
 
-[card_carmen]
-title: Avatar Onboarding
-subtitle: Formación legal dinámica
-desc: Píldoras breves para nuevas incorporaciones: accesos, seguridad y ética.
+[card_adolfo]
+title: Avatar Especialista
+subtitle: Litigación y storytelling
+desc: Narrativa de casos y sensibilización en procedimientos del área; formación breve y contextualizada para equipos.
 
 # Mensajes auxiliares
-disclaimer: Demostración educativa. No constituye asesoramiento legal.
+disclaim
+
