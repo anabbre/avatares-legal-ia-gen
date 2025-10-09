@@ -19,14 +19,14 @@
 | Ana | **Guiones & Copy** | Guiones de 3 avatares (≤130 palabras + 2 Q&A c/u), copy de landing | Amalia |
 | Carlos | **Audio TTS** | Generación de 3 locuciones en ElevenLabs + `audio/metadata.json` | Ana |
 | Juan | **Vídeo/Animación** | 3 clips MP4 (1080p) con lower-third + subtítulos si aplica | Carlos |
-| Amalia | **Web + Slides** | Integración en **Lovable**, slides con **Slides AI** y promptbook de la web y las slides | Juan |
+| Amalia | **Web + Slides** | Integración en **Lovable**, slides (SlidesAI/Copilot) y promptbook | Juan |
 
 ---
 
 ## 3. Planificación (hitos)
 - **H1 – Contenidos**: guiones (`/scripts`) + copy web (`/brand/copy_web.md`).  
-- **H2 – Audio**: `audio/{lucia,inigo,carmen}.wav` + `audio/metadata.json`.  
-- **H3 – Vídeo**: `video/01_lucia.mp4`, `02_inigo.mp4`, `03_carmen.mp4`.  
+- **H2 – Audio**: `audio/{lucia,inigo,adolfo}.wav` + `audio/metadata.json`.  
+- **H3 – Vídeo**: `video/01_lucia.mp4`, `02_inigo.mp4`, `03_adolfo.mp4`.  
 - **H4 – Integración**: landing en **Lovable** (3 modales) + slides.  
 - **H5 – Ensayo**: *dry run* 15’ + 5’, checklist final.
 
@@ -37,64 +37,65 @@
 
 ## 4. Proceso y estadios intermedios
 **E1 – Guiones & Copy (GPT)**  
-- Prompt base (resumen): “Guion corporativo 120–130 palabras + 2 Q&A, tono [cercano/formal/didáctico], sin asesoría legal.”  
-- Artefactos: `scripts/guion_lucia.md`, `guion_inigo.md`, `guion_carmen.md`, `brand/copy_web.md`.  
-- Capturas: **TODO** (añadir en `/prompts/promptbook.md`).
+- Prompt base: “Guion corporativo 120–130 palabras + 2 Q&A, tono [cercano/formal/didáctico], sin asesoría legal.”  
+- Artefactos: `scripts/guion_lucia.md`, `guion_inigo.md`, `guion_adolfo.md`, `brand/copy_web.md`.  
+- Evidencias: `/prompts/promptbook.md` y capturas.
 
 **E2 – Audio (ElevenLabs)**  
-- Parámetros por clip (ejemplo): estabilidad 0.60, style 0.40, speed 1.03 (Lucía).  
+- Parámetros orientativos: estabilidad 0.55–0.65; style 0.30–0.40; speed 1.00–1.03.  
 - Artefactos: `audio/*.wav`, `audio/metadata.json`.  
 - Notas: nivelado de volumen, micro-pausas antes de Q&A.
 
 **E3 – Vídeo/Animación (CapCut/Clipchamp/Slides→MP4)**  
-- Enfoque: “logo/imagen parlante” con *breathing* (zoom 98–102%), lower-third y subtítulos opcionales.  
-- Artefactos: `video/01_lucia.mp4`, `02_inigo.mp4`, `03_carmen.mp4` (1080p, ≤30–50 MB).
+- Enfoque: “logo/imagen parlante” (zoom 98–102%), lower-third y subtítulos opcionales.  
+- Artefactos: `video/01_lucia.mp4`, `02_inigo.mp4`, `03_adolfo.mp4` (1080p, ≤30–50 MB).
 
-**E4 – Web + Slides (Lovable / Editor vídeo / Gamma/SlidesAI)**  
+**E4 – Web + Slides (Lovable / SlidesAI/Copilot)**  
 - Landing: 3 tarjetas con botón **Reproducir demo** → modal con MP4.  
-- Artefactos: `slides/Digital Counsel_ Avatares Legales con IA.pdf`.
+- Artefactos: `/web` (capturas), `slides/Digital Counsel_ Avatares Legales con IA.pdf`.
 
 ---
 
 ## 5. Producto final (enlaces y capturas)
-- **Landing (Lovable):** https://preview--ai-legal-showcase.lovable.app/ *puede no estar pública por falta de permisos
-- **Capturas:** frames de de las pantallas de Lovable (en `/web`).  
-- **Slides:** `/slides/Digital Counsel_ Avatares Legales con IA.pdf`
+- **Landing (Lovable):** https://preview--ai-legal-showcase.lovable.app/ *(puede requerir permisos)*  
+- **Slides:** `/slides/Digital Counsel_ Avatares Legales con IA.pdf`  
+- **Capturas:** pantallas de Lovable en `/web`.
+
 ---
 
 ## 6. Herramientas y experiencia de uso
-- **Texto/guiones:** ChatGPT → rapidez para iterar tono y duración; cuidado con *hallucinations* (solución: límites y disclaimers).  
-- **Voz:** ElevenLabs → control de timbre/velocidad; reto: prosodia en listas (solución: comas/puntos y micro-pausas).  
-- **Vídeo:** CapCut/Clipchamp/Slides→MP4 → suficiente para “avatar” sin coste extra; reto: peso de archivo (solución: bitrate medio).  
-- **Web:** Lovable → modales rápidos desarrollados sin código; permite modificar fácilmente y añadir nuevas pantallas y nuevos enlaces añadiendo archivos a través del propio chat. Integrado con GitHub. Diseño responsive. Mejor experiencia que con Figma y Make para modificaciones. 
-- **Slides:** Copilot y Slides AI → definida la estructura y el contenido, genera rápidamente un diseño visual atractivo. Utiliza plantillas predefinidas, pero permite personalizar colores, fuentes e imágenes.
+- **Texto/guiones:** ChatGPT → rapidez para iterar tono y duración; control con límites y disclaimers.  
+- **Voz:** ElevenLabs → timbre/velocidad; prosodia resuelta con puntuación y pausas.  
+- **Vídeo:** CapCut/Clipchamp/Slides→MP4 → suficiente para “avatar” sin coste extra; cuidar bitrate.  
+- **Web:** Lovable → modales rápidos sin código; responsive; cambios ágiles.  
+- **Slides:** Copilot y SlidesAI → plantillas + personalización de paleta/tipografía.
 
 ---
 
 ## 7. Ética y límites
 - **Transparencia:** voces sintéticas; sin suplantación de personas reales.  
-- **Contenido legal:** mensajes informativos; **no** asesoría legal.  
+- **Contenido legal:** informativo; **no** asesoría legal.  
 - **Privacidad:** sin PII ni marcas reales.  
 - **Derechos:** imágenes/íconos libres o generados; créditos en slides/README.
 
 ---
 
 ## 8. Lecciones aprendidas
- - La IA acelera los prototipos, pero exige una revisión humana para verificar la precisión y los matices.
- - La coordinación técnica y creativa fue esencial para un producto final cohesivo.
- - Las herramientas de bajo código agilizaron la integración, reduciendo el tiempo de desarrollo.
+- La IA acelera prototipos, pero requiere revisión humana.  
+- La coordinación entre roles fue clave para coherencia final.  
+- Herramientas low-code aceleran integración y evitan “atascos” técnicos.
 
 ---
 
 ## 9. Próximos pasos
 - Multilingüe (TTS EN/PT) y selector de idioma en Lovable.  
-- Métricas (tiempo de visionado/click en CTA).  
-- Variantes de avatar (más roles: Protección de Datos, Seguridad).
+- Métricas (visionado/CTR en CTA).  
+- Nuevos roles de avatar (Protección de Datos, Seguridad).
 
 ---
 
 ## 10. Anexos
-- **Promptbook:** `/prompts/` (prompts de cada uno de los pasos).  
+- **Promptbook:** `/prompts/` (prompts y capturas).  
 - **Guiones:** `/scripts/*.md`  
 - **Parámetros de voz:** `/audio/metadata.json`  
-- **Especificaciones de vídeo:** resolución, fps, bitrate usados (añadir aquí cuando se cierre E3/E4).
+- **Especificaciones de vídeo:** resolución, fps, bitrate (añadir al cerrar E3/E4).
