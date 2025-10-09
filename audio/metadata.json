@@ -1,5 +1,5 @@
 {
   "lucia":  { "voice": "aAIPUicYNNoDf4XL2xLk", "stability": 0.46, "style": 0.47, "speed": 1.03 },
   "inigo":  { "voice": "mlvKrtn7QX3wWuvzlsgA", "stability": 0.50, "style": 0.35, "speed": 0.96 },
-  "carmen": { "voice": "ixJ3jOtRyLTOJfn4zDOf", "stability": 0.50, "style": 0.30, "speed": 1.00 }
+  "adolfo": { "voice": "ixJ3jOtRyLTOJfn4zDOf", "stability": 0.50, "style": 0.30, "speed": 1.00 }
 }
