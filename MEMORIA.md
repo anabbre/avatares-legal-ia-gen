@@ -11,12 +11,12 @@
 - **Título del proyecto:** *Galería de Avatares Legales*.
 - **Objetivo de la demo:** Mostrar 3 perfiles con tono/estilo diferenciado capaces de explicar un tema y responder micro-FAQs, con **máximo uso de IA generativa** en el flujo (texto → audio → vídeo → web).
 
-- ### Perfiles de la demo
+### Perfiles de la demo
 | Avatar | Enfoque | Resumen |
 |---|---|---|
-| Lucía | **Operativo** | Mensajes claros y pasos concretos para FAQs del día a día. |
-| Iñigo | **Mentoría** | Consejos y pautas para perfiles junior; orientación ética/profesional. |
-| Adolfo | **Especialista / Litigación** | Storytelling de casos y sensibilización sobre procedimientos del área. |
+| Iñigo | **Ejecutivo** | Liderazgo y compliance: mensajes ejecutivos claros y alineados con políticas. |
+| Lucía | **Especialista** | Formación legal dinámica: procedimientos y regulaciones del sector. |
+| Adolfo | **Comunicación** | Resolución de dudas internas: respuestas cercanas y orientación rápida. |
 
 ---
 
@@ -41,8 +41,8 @@
 ## 4. Proceso y estadios intermedios
 **E1 – Guiones & Copy (GPT)**  
 - Prompt base: “Guion corporativo 120–130 palabras + 2 Q&A, tono [cercano/formal/didáctico], sin asesoría legal.”
-- Estilos definidos: **Operativo (Lucía)**, **Mentoría (Iñigo)** y **Especialista/Litigación (Adolfo)**.
-- Prompt base: “Guion corporativo 120–130 palabras + 2 Q&A, tono [cercano/formal/didáctico], sin asesoría legal.”
+- Estilos definidos: **Ejecutivo (Iñigo)**, **Especialista (Lucía)** y **Comunicación (Adolfo)**.
+- Prompt base: “Guion corporativo 120–130 palabras + 2 Q&A, tono [ejecutivo/didáctico/cercano], sin asesoría legal.”
 - Artefactos: `scripts/guion_lucia.md`, `guion_inigo.md`, `guion_adolfo.md`, `brand/copy_web.md`.  
 - Evidencias: `/prompts/promptbook.md` y capturas.
 
@@ -63,7 +63,7 @@
 
 ## 5. Producto final (enlaces y capturas)
 - **Landing (Lovable):** https://preview--ai-legal-showcase.lovable.app/ *(puede requerir permisos)*
-- **Vídeos:** `video/01_lucia.mp4` (**Operativo**), `video/02_inigo.mp4` (**Mentoría**), `video/03_adolfo.mp4` (**Especialista/Litigación**).
+- **Vídeos:** `video/02_inigo.mp4` (**Ejecutivo**), `video/01_lucia.mp4` (**Especialista**), `video/03_adolfo.mp4` (**Comunicación**).
 - **Slides:** `/slides/Digital Counsel_ Avatares Legales con IA.pdf`  
 - **Capturas:** pantallas de Lovable en `/web`.
 

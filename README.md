@@ -1,7 +1,7 @@
 # Avatares Legales – Demo IA Gen
 
 Demo de comunicación legal con **3 avatares**:
-**Operativo (Lucía)**, **Mentoría (Iñigo)** y **Especialista/Litigación (Adolfo)**.
+**Ejecutivo (Iñigo)**, **Especialista (Lucía)** y **Comunicación (Adolfo)**.
 Contenidos generados con **GPT** (guiones/copy) y **ElevenLabs** (voz).  
 Vídeos de **animación simple** (logo/imagen parlante) y **landing** montada en **Lovable**.  
 > *Demostración educativa. No constituye asesoramiento legal.*
@@ -25,8 +25,8 @@ Vídeos de **animación simple** (logo/imagen parlante) y **landing** montada en
 
 ## 🗺️ Planificación (hitos)
 - H1: guiones + copy (`/scripts`, `/brand/copy_web.md`)  
-- H2: audios ElevenLabs + `audio/metadata.json`  
-- H3: `video/01_lucia.mp4` (**Operativo**), `02_inigo.mp4` (**Mentoría**), `03_adolfo.mp4` (**Especialista/Litigación**)
+- H2: audios ElevenLabs + `audio/metadata.json`
+- H3: `video/01_lucia.mp4` (**Especialista**), `video/02_inigo.mp4` (**Ejecutivo**), `video/03_adolfo.mp4` (**Comunicación**)
 - H4: Lovable integrado (3 modales) + slides  
 - H5: **Dry run** 15’+5’ y cierre
 
@@ -35,7 +35,7 @@ Vídeos de **animación simple** (logo/imagen parlante) y **landing** montada en
 ## ✅ Definition of Done
 **E1**: 3 guiones ≤130 palabras + 2 Q&A; copy web coherente.  
 **E2**: 3 WAV/MP3 nivelados (44.1 kHz) + `metadata.json` con `voice, stability, style, speed`.  
-**E3**: 3 MP4 1080p, rótulo *lower-third*, ≤30–50 MB c/u.  
+**E3**: 3 MP4 1080p con lower-third (**Ejecutivo, Especialista y Comunicación**), ≤30–50 MB c/u.
 **E4**: Lovable con 3 botones “Reproducir demo” → modal correcto; footer con **disclaimer**; slides PDF.
 
 ---
